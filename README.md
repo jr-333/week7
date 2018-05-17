@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-  
+ <a href="https://imgflip.com/gif/2ahq5y"><img src="https://i.imgflip.com/2ahq5y.gif" title="made at imgflip.com"width="800"/></a> 
   - [ ] Steps to recreate: Insert the tag into the comment section which becomes malformed HTML. When youmouse over the "Reply" you can see the exploit.
   - [ ] Affected source code: None, it was added into the existing code
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
