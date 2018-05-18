@@ -17,15 +17,17 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Insert the tag into the comment section. The comment must be 64kb or larger because due to the large length size it will be truncated by the database.The result is the malformed HTML displayed.
   - [ ] Affected source code: None, it was stored into the database and executes each time it is viewed.
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
-1. (Required) Vulnerability Name or ID
+1. (Required) Vulnerability Name or ID: User Enumeration
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types:User Enumeration
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  ![user_enum2](https://user-images.githubusercontent.com/38142630/40225432-df84c6ee-5a3d-11e8-8bc5-ace7650c2cf4.gif)
+  - [ ] Steps to recreate: Modify the url to query ?author=value in order to view the corresponding username
+  - [ ] Affected source code: None
+    - [Link 1](https://hackertarget.com/wordpress-user-enumeration/)
+    - [Link 2](https://perishablepress.com/stop-user-enumeration-wordpress/)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
