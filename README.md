@@ -15,7 +15,7 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
 ![xss1](https://user-images.githubusercontent.com/38142630/40223455-f649f7a6-5a37-11e8-8dd5-79c05f2cce72.gif) 
   - [ ] Steps to recreate: Insert the tag into the comment section. The comment must be 64kb or larger because due to the large length size it will be truncated by the database.The result is the malformed HTML displayed.
-  - [ ] Affected source code: None, it was added into the existing code
+  - [ ] Affected source code: None, it was stored into the database and executes each time it is viewed.
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
