@@ -28,15 +28,17 @@ Time spent: **5** hours spent in total
   - [ ] Affected source code: None
     - [Link 1](https://hackertarget.com/wordpress-user-enumeration/)
     - [Link 2](https://perishablepress.com/stop-user-enumeration-wordpress/)
-1. (Required) Vulnerability Name or ID
+1. (Required) Vulnerability Name or ID: Authenticated Cross-Site scripting (XSS) in update-core.php CVE-2017-5488
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  ![xss2](https://user-images.githubusercontent.com/38142630/41406846-70ca90ee-6f82-11e8-9513-ef210704a0ce.gif)
+  - [ ] Steps to recreate: In the admin page go to the plugin section and edit any of the installed plugins. Keep in mind the plugin does not have to be activated for this to work. Insert an XSS tag such as <img src=1 onerror=alert(1)>.Update the file and to go the updates on the dashboard.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5488)
+    - [Link 2](https://wpvulndb.com/vulnerabilities/8716)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
